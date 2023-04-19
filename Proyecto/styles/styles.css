@@ -1,0 +1,9 @@
+.mainheader {
+    background-color: blue;
+    font-size: 20px;
+}
+
+.mainheader:hover {
+    background-color:aqua;
+    font-size: 15px;
+}
