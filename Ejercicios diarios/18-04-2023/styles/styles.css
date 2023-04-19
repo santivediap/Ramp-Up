@@ -1,0 +1,33 @@
+.change-color {
+    color: #64F162;
+}
+
+* {
+    font-family: Verdana, Arial;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 7dvh;
+    text-align: center;
+    text-underline-offset: 20px;
+    text-decoration: underline #46BF44 wavy;
+    word-spacing: 20px;
+    text-shadow: 3px 3px 1px black;
+}
+
+h2 {
+    writing-mode: vertical-rl;
+}
+
+.borders {
+    border: 5px solid blue;
+    border-radius: 25px 5px;
+
+    background-color: blue;
+
+    height: 100px;
+    width: 150px;
+
+    margin: 30px;
+}

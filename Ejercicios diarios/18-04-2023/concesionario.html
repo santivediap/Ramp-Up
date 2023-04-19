@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<!-- Ejercicio concesionario -->
+
+<html>
+
+    <head>
+        <title>Concesionario Formulario</title>
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="change-color">Formulario para introducir coches</h1>
+            <p align="right"><em><strong>Idioma </strong></em><img height="20px" width="40px" src="data:image/png;base64,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" alt=""></p>
+        </header>
+
+        <main>
+            <aside align="right"></aside>
+            <article>
+                <div class="borders">
+                    <p>Hola</p>
+                </div>
+                <h2><dd>Introducir nuevo coche</dd></h2>
+
+                <p><dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id aliquam nulla. Nulla vel diam justo. Morbi laoreet neque sit amet nibh vulputate, dictum feugiat mi porttitor. Etiam vestibulum vehicula justo sodales pretium. Donec eget eros a ligula auctor convallis. Fusce in metus elementum, dictum nunc ac, egestas sapien. Nullam a eros placerat, rhoncus sapien id, lacinia enim. Mauris a lacinia nisl, ut condimentum libero. Pellentesque augue tortor, gravida nec sapien in, sagittis consequat diam. Integer accumsan luctus purus quis pharetra.
+
+                    Morbi leo diam, dapibus nec sapien ac, maximus auctor neque. Praesent ultricies dictum ex quis ornare. Proin ullamcorper ultrices libero, ac venenatis arcu ornare vel. Nunc luctus ac lacus sit amet accumsan. Fusce pulvinar leo sed sodales dignissim. Mauris pellentesque vel metus et ultricies. Proin dapibus turpis non dui accumsan consectetur. Nulla vel lorem suscipit, tincidunt odio ut, volutpat orci. Sed eu ligula a nunc pulvinar blandit. Phasellus nec justo nec lectus elementum convallis. Phasellus venenatis iaculis nunc, vitae dignissim ipsum iaculis quis. Vivamus faucibus enim ac velit feugiat lobortis.</dd></p>
+
+                <video>
+                    <source src="https://www.youtube.com/watch?v=Akza46ZZHfA">
+                </video>
+            </article>
+            <section align="center">
+                <form action="/data" method="post">
+
+                    <p><dd>Tipo de vehículo <select name="modelo" required>
+                        <option value=""></option>
+                        <option value="vma">VEHÍCULO MIXTO ADAPTABLE</option>
+                        <option value="vma">DERIVADO DE TURISMO</option>
+                        <option value="turismo">TURISMO</option>
+                    </select></dd></p>
+
+                    <p><dd>Marca <select name="marca" required>
+                        <option value=""></option>
+                        <option value="bmw">BMW</option>
+                        <option value="audi">AUDI</option>
+                        <option value="dacia">DACIA</option>
+                        <option value="ford">FORD</option>
+                        <option value="honda">HONDA</option>
+                        <option value="jeep">JEEP</option>
+                    </select></dd></p>
+
+                    <p><dd>Asientos <select name="marca" required>
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="+5">+5</option>
+                    </select></dd></p>
+
+                    <p><dd>Tipo de cambio:</dd></p>
+                    <p><dd>Manual <input type="radio" name="cambio"> Automático <input type="radio" name="cambio">
+
+                    <p><dd>Combustible <select name="combustible" required>
+                        <option value=""></option>
+                        <option value="gasolina">GASOLINA</option>
+                        <option value="diesel">DIESEL</option>
+                        <option value="etanol">ETANOL</option>
+                        <option value="hidrogeno">HIDRÓGENO</option>
+                        <option value="biodiesel">BIODIESEL</option>
+                        <option value="electricidad">ELECTRICIDAD</option>
+                        <option value="metanol">METANOL</option>
+                        <option value="gs">GAS NATURAL</option>
+                    </select></dd></p>
+
+                    <p><dd>Matrícula <input type="text" required pattern="[A-Z]"></dd></p>
+                    <p><dd>Potencia <input type="number" required> CV</dd></p>
+                    <p><dd>Kilómetros <input type="number" required> Km</dd></p>
+                    <p><dd>Modelo <input type="text" required></dd></p>
+                    <p><dd>Color <input type="text" required></dd></p>
+                    <p><dd>Precio <input type="number" required> €</dd></p>
+                    <p><dd>Fecha de matriculación <input type="date" min="2000-01-01" max="2023-04-18" required></dd></p>
+                    
+                    <p><dd><input type="reset" value="Reestablecer opciones"></dd></p>
+                    <p><dd><input type="submit" value="Publicar"></dd></p>
+
+                    <video controls autoplay>
+                        <source src="istockphoto-1365181132-640_adpp_is.mp4" type="video/mp4">
+                    </video>
+
+                    <audio controls>
+                        <source src="futuristic-beat-146661.mp3" type="audio/mp3">
+                    </audio>
+                    
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <img align="center" src="https://previews.123rf.com/images/teravector/teravector1901/teravector190100328/117775672-vector-plano-de-sala-de-exposici%C3%B3n-de-concesionario-de-autom%C3%B3viles-con-personas-evaluando-y.jpg" alt="banner coches" height="200px" width="100%">
+        </footer>
+
+    </body>
+
+</html>
