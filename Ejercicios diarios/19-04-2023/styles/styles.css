@@ -1,0 +1,85 @@
+p, h1, h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.main-box {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.main-left-box {
+    flex: 40%;
+    background-color: #484e5e;
+    color: #f7e8df;
+}
+
+.main-right-box {
+    flex: 60%;
+    background-color: #fefffa;
+    color: #484e5e;
+}
+
+.myimage {
+    border-radius: 120px;
+    margin-bottom: -55px;
+}
+
+.main-left-box-element {
+    padding: 10%;
+}
+
+.main-right-box-element {
+    padding: 10%;
+}
+
+.left-title {
+    margin-bottom: 30px;
+}
+
+.right-title {
+    font-weight: 800;
+    margin-bottom: -5px;
+}
+
+.left-text {
+    font-family:Arial Narrow;
+}
+
+.name {
+    font-size: 50px;
+    margin-bottom: -5px;
+
+}
+
+.divider {
+    height: 4px;
+    border-radius: 5px;
+    background-color: #f7e8df;
+    margin-bottom: 50px;
+}
+
+.profession {
+    font-weight: lighter;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 50px;
+}
+
+.main-left-box-element-text {
+    margin-bottom: 60px;
+}
+
+.right-section {
+    padding: 10px;
+    background-color: #fde4cf;
+    text-indent: 20px;
+    font-size: 25px;
+    font-weight:800;
+    margin-bottom: 30px;
+}
