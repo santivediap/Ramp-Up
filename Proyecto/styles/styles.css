@@ -1,9 +1,39 @@
-.mainheader {
-    background-color: blue;
-    font-size: 20px;
+* {
+    /* Body reset */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-.mainheader:hover {
+.mainheader {
+    background: rgb(62,62,62);
+    background: radial-gradient(circle, rgba(62,62,62,1) 0%, rgba(31,31,31,1) 100%);
+    font-size: 20px;
+    color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    box-shadow: 0px 1px 5px rgb(97, 97, 97);
+}
+
+/* .mainheader:hover {
     background-color:aqua;
     font-size: 15px;
+} */
+
+.imgtest {
+    width: 30%;
+    height: 30%;
+}
+
+.row-container {
+    display: flex;
+    padding: 3%;
+    justify-content: space-around;
+}
+
+.row-container > p {
+    background-color: #D85050;
+    width: 15%;
+    text-align: center;
+    border-radius: 20%;
 }
